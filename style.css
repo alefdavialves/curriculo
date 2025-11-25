@@ -1,0 +1,288 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: #020a21;
+}
+
+a {
+
+    color: #4FC3F7;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: #81D4FA;
+}
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://t3.ftcdn.net/jpg/05/84/97/90/360_F_584979015_Um2QtVrUDxjmh4EGgGvWTKSkmFmmIbse.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.foto-perfil {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    margin-bottom: 15px;
+}
+
+header h1 {
+
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+header h2 {
+
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+header nav ul {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 20px;
+    width: 150px;
+}
+
+header ul li a {
+
+    background: rgba(60, 120, 200, 0.2);
+    color: white;
+    border: 1px solid rgba(80, 160, 255, 0.5);
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(80, 160, 255, 0.2);
+}
+
+header ul li a:hover {
+
+    background: rgba(80, 160, 255, 0.4);
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(80, 160, 255, 0.6);
+}
+
+button:active {
+
+    transform: translateY(0);
+    box-shadow: 0 0 5px rgba(80, 160, 255, 0.3);
+}
+
+section {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 40px 15px;
+    border-top: 1px solid #37474F;
+    color: white;
+}
+
+section h2 {
+
+    font-size: 2.5rem;
+    color: #4FC3F7;
+    margin-bottom: 20px;
+    text-shadow: 0 0 8px rgba(79, 195, 247, 0.5);
+}
+
+section h3 {
+
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+section p {
+
+    max-width: 800px;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    color: #E0E0E0;
+}
+
+section ul {
+
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #cfd8dc;
+}
+
+section ul li {
+
+    margin-bottom: 20px;
+}
+
+#resumo img {
+
+    height: 15px;
+    margin-right: 5px;
+}
+
+#resumo ul {
+
+    display: flex;
+    list-style: none;
+    margin: 10px;
+
+
+}
+
+#resumo li a {
+
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 1.2em;
+
+}
+
+#resumo li a:hover {
+
+    text-decoration: underline;
+
+
+}
+
+#experiencia {
+
+    background-image: url('https://community.adobe.com/legacyfs/online/1754692_lines.gif');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#experiencia p {
+
+    margin-top: 0px;
+}
+
+#conteudoformacao {
+
+    display: flex;
+
+}
+
+.formacao {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid rgba(80, 160, 255, 0.5);
+    box-shadow: 0 0 10px rgba(80, 160, 255, 0.2);
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.formacao ul {
+
+    margin-top: 8px;
+
+}
+
+#habilidades ul {
+
+    list-style: none;
+    margin: 30px;
+    background-color: rgba(128, 128, 128, 0.395);
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(80, 160, 255, 0.2);
+    border-radius: 10px;
+
+    padding: 20px;
+    height: 250px;
+
+}
+
+#habilidades h3 {
+
+    text-align: center;
+}
+
+hr {
+    border: 0;            
+    height: 1px; 
+    background-color: #4FC3F7; 
+
+    width: 80%; 
+    margin: 20px auto; 
+}
+
+#habilidades {
+
+    background-image: url('https://img.freepik.com/vetores-gratis/fundo-de-conexao-gradiente_23-2150462053.jpg?semt=ais_hybrid&w=740&q=80');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#conteudohabilidades {
+
+    display: flex;
+    align-items: center;
+}
+
+
+#habilidades img {
+
+    height: 20px;
+    margin-left: 5px;
+}
+
+#habilidades .bandeiras {
+
+height: 10px;
+margin-right: 2px;
+
+
+}
+
+footer {
+    text-align: center;
+    padding: 12px 0;
+    background-color: #0A1E5B;
+    color: #B0BEC5;
+    border-top: 1px solid #37474F;
+}
