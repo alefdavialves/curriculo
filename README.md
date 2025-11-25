@@ -1,2 +1,2 @@
 # curriculo
-urriculo Profissional com HTML e CSS
+Curriculo Profissional com HTML e CSS
